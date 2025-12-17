@@ -1,0 +1,23 @@
+# Сводка по подготовке миграции
+
+## Созданные файлы:
+
+1. MIGRATION.md - Полная инструкция по миграции
+2. MIGRATION_CHECKLIST.md - Чеклист для пошаговой миграции
+3. QUICK_START.md - Быстрый старт после миграции
+4. scripts/export_for_migration.sh - Скрипт экспорта
+5. scripts/install_on_new_server.sh - Скрипт установки
+6. backend/env.template - Шаблон .env для backend
+7. frontend/env.local.template - Шаблон .env.local для frontend
+8. .gitignore - Игнорируемые файлы
+
+## Следующие шаги:
+
+1. Запустите скрипт экспорта на текущем сервере:
+   ./scripts/export_for_migration.sh
+
+2. Скопируйте архив на новый сервер
+
+3. Следуйте инструкциям в MIGRATION.md
+
+4. Используйте MIGRATION_CHECKLIST.md для отслеживания прогресса
